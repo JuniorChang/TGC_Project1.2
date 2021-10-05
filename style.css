@@ -1,0 +1,23 @@
+.topbanner {
+    align-items: center;
+}
+
+.nav{
+    padding-left: 180px;
+}
+
+.form-container {
+    margin-top: 20px;
+}
+
+.form-check{
+    margin-top: 15px;
+}
+
+.form-check{
+    margin-top: 15px;
+}
+
+#map{
+    height: 500px;
+}
