@@ -1,11 +1,4 @@
 
-
-// let singapore = [1.29, 103.85];
- // Singapore latlng
-// let map = L.map('map').setView(singapore, 13);
-// map.setMaxBounds(map.getBounds());
-// map.setMinZoom(12);
-
 const mymap = L.map('map').setView([ 1.29,103.85], 13);
 
 
@@ -18,32 +11,28 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
     accessToken: 'pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw' //demo access token
 }).addTo(mymap);
 
+// get own location
+// navigator.geolocation.getCurrentPosition(position => {
+//     const { coords: { latitude, longitude }} = position;
+//     var marker = new L.marker([latitude, longitude], {
+//       draggable: true,
+//       autoPan: true
+//     }).addTo(map);
+// })
 
-// window.addEventListener('DOMContentLoaded'), async() =>{
-//     let response = await axios.get('/geojson/rmg.geojson');
-//     console.log(response);
-// }
 
-// Loading Raffles medical data
-const rmgfile = "../geojson/rmg.geojson";
-console.log("loading Raffles Medical Data");
-async function rmgdata(){
-    const response = await fetch(rmgfile);
-    const data = await response.json();
-    console.log("RMG data loaded");
-    console.log(data);       
-}
-rmgdata();
 
-// Loading Public hospital data
-const publichospital = "../geojson/hospital.geojson";
-console.log("loading Public hospital data");
-async function phospital(){
-    const response = await fetch(publichospital);
-    const data = await response.json();
-    console.log("Public hospital data loaded");
-    console.log(data);
-}
-phospital();
-
+window.addEventListener('DOMContentLoaded', async function() {
+    let response = await axios.get("../geojson/rmg.geojson");
+    console.log(response.data);
+    let rmgLayer = L.geoJson(response.data,{
+        onEachFeature: function(feature, layer){
+            layer.bindPopup(feature.properties.Description);
+        }
+    })
+    rmgLayer.addTo(map);
+    rmgLayer.setStyle({
+        'color':'red'
+    })
+})
 

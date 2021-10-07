@@ -1,44 +1,167 @@
-[
-    {
-        "name": "Raffles Medical Sembawang",
-        "address" : "Block 355A Sembawang Way #01-06 Singapore 750355",
-        "Contact": "68537709", 
-        "latitude": "1.449",
-        "longitude":"103.819"
-    },
-    {
-        "name": "Raffles Medical Causeway Point",
-        "address" : "1 Woodlands Square #05-20 Singapore 738099",
-        "Contact": "68940777", 
-        "latitude": "1.436",
-        "longitude":"103.785"
-    },
-    {
-        "name": "NorthPoint City, North Wing",
-        "address" : "Northpoint #03-35 Singapore 769098",
-        "Contact": "67550049", 
-        "latitude": "1.429",
-        "longitude":"103.836"
-    },
-    {
-        "name": "Ang Mo Kio",
-        "address" : "Block 722 Ang Mo Kio Ave 8 #01-2825 Singapore 560722",
-        "Contact": "64532288", 
-        "latitude": "1.372",
-        "longitude":"103.847"
-    },
-    {
-        "name": "Bishan",
-        "address" : "Block 283 Bishan Street 22 #01-177",
-        "Contact": "64567122", 
-        "latitude": "1.358",
-        "longitude":"103.844"
-    },
-    {
-        "name": "Toa Payoh",
-        "address" : "Block 177 Toa Payoh Central #01-170 Singapore 310177",
-        "Contact": "62547667", 
-        "latitude": "1.333",
-        "longitude":"103.849"
-    }
-]
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Causeway Point",
+                "address": "1 Woodlands Square, #05-20, Singapore 738099",
+                "phone": 68940777
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.78617346286774,
+                    1.4360706204122977
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Sembawang",
+                "address": "Sembawang Way, #01-06 Block 355A, Singapore 750355",
+                "phone": 68537703
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.81891250610352,
+                    1.44957930509808
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Northpoint City",
+                "address": "Northpoint City  #03-35",
+                "phone": 67550049
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83627712726593,
+                    1.4292974784591168
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Ang Mo Kio",
+                "address": "Blk 722 Ang Mo Kio Ave 8, #01-2825, Singapore 560722",
+                "phone": 64532288
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84746193885803,
+                    1.3724784594217787
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Bishan",
+                "address": "Bishan Street 22, #01-177 Blk 283, Singapore 570283",
+                "phone": 64567122
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84486824274062,
+                    1.3587548127293527
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Toa Payoh",
+                "address": "Blk 177 Toa Payoh Central, #01-170, 310177",
+                "phone": 62547667
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84953796863556,
+                    1.3338975993632867
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Shaw Centre",
+                "address": "1 Scotts Rd, #04 - 09 / 14, Singapore 228208",
+                "phone": 68380080
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83140087127686,
+                    1.306508789109322
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Anchorpoint",
+                "address": "370 Alexandra Rd, B1-41, Singapore 159953",
+                "phone": 64793818
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8050428032875,
+                    1.28852918905579
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Holland V Mall",
+                "adress": "118 Holland Ave, #05-02/03/04, Singapore 278997",
+                "phone": 62501411
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.79612177610396,
+                    1.310528371942419
+                ]
+            }
+        }
+    ]
+}
