@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Raffles Medical Sembawang",
+        "address" : "Block 355A Sembawang Way #01-06 Singapore 750355",
+        "Contact": "68537709", 
+        "latitude": "1.449",
+        "longitude":"103.819"
+    },
+    {
+        "name": "Raffles Medical Causeway Point",
+        "address" : "1 Woodlands Square #05-20 Singapore 738099",
+        "Contact": "68940777", 
+        "latitude": "1.436",
+        "longitude":"103.785"
+    },
+    {
+        "name": "NorthPoint City, North Wing",
+        "address" : "Northpoint #03-35 Singapore 769098",
+        "Contact": "67550049", 
+        "latitude": "1.429",
+        "longitude":"103.836"
+    },
+    {
+        "name": "Ang Mo Kio",
+        "address" : "Block 722 Ang Mo Kio Ave 8 #01-2825 Singapore 560722",
+        "Contact": "64532288", 
+        "latitude": "1.372",
+        "longitude":"103.847"
+    },
+    {
+        "name": "Bishan",
+        "address" : "Block 283 Bishan Street 22 #01-177",
+        "Contact": "64567122", 
+        "latitude": "1.358",
+        "longitude":"103.844"
+    },
+    {
+        "name": "Toa Payoh",
+        "address" : "Block 177 Toa Payoh Central #01-170 Singapore 310177",
+        "Contact": "62547667", 
+        "latitude": "1.333",
+        "longitude":"103.849"
+    }
+]

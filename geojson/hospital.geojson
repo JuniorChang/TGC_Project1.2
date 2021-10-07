@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Singapore General Hospital",
+        "address": "Outram Road, Singapore 169608",
+        "phone": "62223322",
+        "latitude": "1.279",
+        "longitude": "103.835"
+    },
+    {
+        "name": "Tan Tock Seng Hospital",
+        "address":"11 Jalan Tan Tock Seng, Singapore 308433",
+        "phone":"62566011",
+        "latitude":"1.321",
+        "longitude":"103.845"
+    },
+    {
+        "name":"Sengkang General Hospital",
+        "address":"110 Sengkang East way, Singapore 544886",
+        "phone":"69305000",
+        "latitude":"1.393",
+        "longitude":"103.893"
+    },
+    {
+        "name":"Ng Teng Fong General Hospital",
+        "address":"1 Jurong East Street 21, Singapore 609606",
+        "phone":"67162000",
+        "latitude":"1.333",
+        "longitude":"1103.745"
+    },
+    {
+        "name":"Khoo Teck Puat Hospital",
+        "address":" 90 Yishun Central, Singapore 768828",
+        "phone":"65558000",
+        "latitude":"1.424",
+        "longitude":"103.837"
+    }
+]

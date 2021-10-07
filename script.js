@@ -19,3 +19,31 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_toke
 }).addTo(mymap);
 
 
+// window.addEventListener('DOMContentLoaded'), async() =>{
+//     let response = await axios.get('/geojson/rmg.geojson');
+//     console.log(response);
+// }
+
+// Loading Raffles medical data
+const rmgfile = "../geojson/rmg.geojson";
+console.log("loading Raffles Medical Data");
+async function rmgdata(){
+    const response = await fetch(rmgfile);
+    const data = await response.json();
+    console.log("RMG data loaded");
+    console.log(data);       
+}
+rmgdata();
+
+// Loading Public hospital data
+const publichospital = "../geojson/hospital.geojson";
+console.log("loading Public hospital data");
+async function phospital(){
+    const response = await fetch(publichospital);
+    const data = await response.json();
+    console.log("Public hospital data loaded");
+    console.log(data);
+}
+phospital();
+
+
