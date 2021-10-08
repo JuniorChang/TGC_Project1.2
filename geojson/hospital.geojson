@@ -1,37 +1,131 @@
-[
-    {
-        "name": "Singapore General Hospital",
-        "address": "Outram Road, Singapore 169608",
-        "phone": "62223322",
-        "latitude": "1.279",
-        "longitude": "103.835"
-    },
-    {
-        "name": "Tan Tock Seng Hospital",
-        "address":"11 Jalan Tan Tock Seng, Singapore 308433",
-        "phone":"62566011",
-        "latitude":"1.321",
-        "longitude":"103.845"
-    },
-    {
-        "name":"Sengkang General Hospital",
-        "address":"110 Sengkang East way, Singapore 544886",
-        "phone":"69305000",
-        "latitude":"1.393",
-        "longitude":"103.893"
-    },
-    {
-        "name":"Ng Teng Fong General Hospital",
-        "address":"1 Jurong East Street 21, Singapore 609606",
-        "phone":"67162000",
-        "latitude":"1.333",
-        "longitude":"1103.745"
-    },
-    {
-        "name":"Khoo Teck Puat Hospital",
-        "address":" 90 Yishun Central, Singapore 768828",
-        "phone":"65558000",
-        "latitude":"1.424",
-        "longitude":"103.837"
-    }
-]
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Khoo Teck Puat Hospital",
+                "address": "90 Yishun Central, Singapore 768828",
+                "phone": 65558000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83901834487915,
+                    1.4242886654583438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Sengkang General & Community Hospital",
+                "address": "110 Sengkang E Way, Singapore 544886",
+                "phone": 69305000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.89265179634094,
+                    1.3954368337442136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Tan Tok Seng Hospital",
+                "address": "11 Jln Tan Tock Seng, Singapore 308433",
+                "phone": 62566011
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84491920471191,
+                    1.321176615178536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Singapore General Hospital",
+                "address": "Outram Rd, Singapore 169608",
+                "phone": 62223322
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8340938091278,
+                    1.278438568840529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "National University Hospital",
+                "address": "301 South Buona Vista Rd, Singapore 118177",
+                "phone": 67795555
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.78306746482849,
+                    1.2941309006626591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Ng Teng Fong Hospital",
+                "address": "1 Jurong East Street 21, Singapore 609606",
+                "phone": 67162000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.74439001083374,
+                    1.3344070809225115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Changi General Hospital",
+                "address": "2 Simei Street 3, Singapore 529889",
+                "phone": 67888833
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.9495575428009,
+                    1.3400060081492466
+                ]
+            }
+        }
+    ]
+}

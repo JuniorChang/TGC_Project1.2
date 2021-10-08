@@ -31,10 +31,9 @@ window.addEventListener('DOMContentLoaded', async function() {
         onEachFeature: function(feature, layer){
             layer.bindPopup(feature.properties.Description);
         }
+        
     })
     rmgLayer.addTo(mymap);
-    rmgLayer.setStyle({
-        'color':'red'
-    })
+   
 })
 
