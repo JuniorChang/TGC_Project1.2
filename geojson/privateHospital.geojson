@@ -1,0 +1,95 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Mount Alvernia Hospital",
+                "address": "820 Thomson Rd, Singapore 574623",
+                "phone": 63476688
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83805274963379,
+                    1.342011750998951
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Mount Elizabeth Novena",
+                "address": "38 Irrawaddy Rd, Singapore 329563",
+                "phone": 68986898
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84426474571227,
+                    1.3221419535383716
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Mount Elizabeth Medical",
+                "address": "3 Mount Elizabeth, Singapore 228510",
+                "phone": 67355000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83535981178284,
+                    1.3046451377804875
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Alexandra Hospital",
+                "address": "378 Alexandra Rd, Singapore 159964",
+                "phone": 64722000
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.80100607872009,
+                    1.2867352443403495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Parkway East Hospital",
+                "address": "321 Joo Chiat Pl, Singapore 427990",
+                "phone": 63773737
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.90900254249573,
+                    1.3150681598719258
+                ]
+            }
+        }
+    ]
+}
