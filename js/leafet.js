@@ -27,15 +27,13 @@ navigator.geolocation.getCurrentPosition(position => {
     }).addTo(mymap);
 })
 
-let markerCluster = L.markerClusterGroup();
-markerCluster.addTo(mymap)
+// let markerCluster = L.markerClusterGroup();
+// markerCluster.addTo(mymap)
 
-window.addEventListener('DOMContentLoaded', async function() {
-    let response = await axios.get("../geojson/rmg.geojson");
-    let rmg = response.data.features[0].geometry.coordinates
-    console.log(rmg)
-
-    
+// window.addEventListener('DOMContentLoaded', async function() {
+//     let response = await axios.get("../geojson/rmg.geojson");
+//     let rmg = response.data.features[0].geometry.coordinates
+//     console.log(rmg)
     // console.log(response.data);
     // let rmgLayer = L.geoJson(response.data,{
     //     onEachFeature: function(feature, layer){
@@ -43,6 +41,5 @@ window.addEventListener('DOMContentLoaded', async function() {
     //     }
     // })
 //    rmgLayer.addTo(mymap)
-    // return rmgLayer;
-    
-})
+    // return rmgLayer;    
+// })
