@@ -29,11 +29,31 @@ window.addEventListener('DOMContentLoaded', async function() {
     console.log(response.data);
     let rmgLayer = L.geoJson(response.data,{
         onEachFeature: function(feature, layer){
-            layer.bindPopup(feature.properties.Description);
+            layer.bindPopup(feature.properties.Description); 
         }
         
     })
-    rmgLayer.addTo(mymap);
-   
+   rmgLayer.addTo(mymap)
 })
+
+
+        
+    
+
+function countrisk(){
+    const inputElems = document.getElementsByTagName("input");
+    
+    count = 0
+    for ( var i =0; i < inputElems.length; i++) {
+        var x = inputElems[i]
+        if (x.checked) {
+            console.log(x.value)
+        }
+        
+        // if(inputElems[i].type === "radio" && inputElems[i].checked === true){
+        //     count++;
+        //     console.log(count);
+        // }
+    }
+}
 
