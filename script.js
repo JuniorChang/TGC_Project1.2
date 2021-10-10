@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', async function() {
         }
         
     })
-   rmgLayer.addTo(mymap)
+//    rmgLayer.addTo(mymap)
 })
 
 
@@ -43,17 +43,21 @@ window.addEventListener('DOMContentLoaded', async function() {
 function countrisk(){
     const inputElems = document.getElementsByTagName("input");
     
+    
+   
     count = 0
     for ( var i =0; i < inputElems.length; i++) {
         var x = inputElems[i]
-        if (x.checked) {
-            console.log(x.value)
+        if (x.value == 'yes' && (x.checked ) ) {
+            count++;
+            // console.log(x.value)
         }
-        
+      
         // if(inputElems[i].type === "radio" && inputElems[i].checked === true){
         //     count++;
         //     console.log(count);
         // }
     }
+    console.log(count)
 }
 
