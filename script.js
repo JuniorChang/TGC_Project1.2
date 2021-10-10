@@ -52,12 +52,15 @@ function countrisk(){
             count++;
             // console.log(x.value)
         }
-      
-        // if(inputElems[i].type === "radio" && inputElems[i].checked === true){
-        //     count++;
-        //     console.log(count);
-        // }
     }
     console.log(count)
+    if (count <= 2){
+        alert('Stay at home');
+    } else if (count > 2 && count < 5){
+        alert('Please Visit a Clinic');
+    } else {
+        alert('Please visit a hospital')
+    }
+    
 }
 
