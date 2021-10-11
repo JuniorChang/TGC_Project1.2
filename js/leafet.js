@@ -1,10 +1,31 @@
 const mymap = L.map('map').setView([1.29, 103.85], 13);
+
+// Start of Custom icons
 const hereicon = L.icon({
     iconUrl: '../assets/hereicon.jpg',
     iconSize: [70, 70],
     iconAnchor: [0, 0],
     popupAnchor: [0, 0]
 });
+const rmglogo = L.icon({
+    iconUrl: '../assets/rLogo.png',
+    iconSize: [70, 70],
+    iconAnchor: [0, 0],
+    popupAnchor: [0, 0]
+})
+const publicHospitalLogo = L.icon({
+    iconUrl: '../assets/publicHospitalLogo.png',
+    iconSize: [70, 70],
+    iconAnchor: [0, 0],
+    popupAnchor: [0, 0]
+})
+const privateHospitalLogo = L.icon({
+    iconUrl: '../assets/privateHospitalLogo.png',
+    iconSize: [70, 70],
+    iconAnchor: [0, 0],
+    popupAnchor: [0, 0]
+})
+// End of Custom icons
 
 L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
     attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery (c) <a href="https://www.mapbox.com/">Mapbox</a>',
