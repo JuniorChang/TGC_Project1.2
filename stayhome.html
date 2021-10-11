@@ -35,47 +35,102 @@
             </ul>
         </div>
 
-<!-- form  -->
-        <div>
-            <div class="form-check form-switch">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Are you fully vaccinated?</label>
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-            </div>
 
-            <div class="form-check form-switch">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Are you between 12-69 years old?</label>
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-            </div>
 
-            <div class="form-check form-switch">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Not having any severe co-morbidities or
-                    illness</label>
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+        <form>
+            <div class="container-fluid row">
+                <div class="form-container col-xl-6">
+    
+                    <label>Are you fully vaccinated?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault1" value="yes">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault2" value="no">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            No
+                        </label>
+                    </div>
+    
+    
+                    <label>Are you between 12-69 years old?</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault1" value="yes">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault2">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            No
+                        </label>
+                    </div>
+    
+                    <label>Not having any severe co-morbidities or
+                        illness</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault1" value="yes">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault2" value="no">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            No
+                        </label>
+                    </div>
+    
+                    <label>Able to self-isolate in a room, preferably
+                        with an en-suite toilet</label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault1" value="yes">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault2" value="no">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            No
+                        </label>
+                    </div>
+    
+                    <label>None of your household members have any of
+                        the following conditions:</label>
+                    <label> i. Chronic heart,lung,liver,kidney or nerological disease</label><br>
+                    <label>ii. Active cancer</label><br>
+                    <label>iii. Weakened immunity</label><br>
+                    <label>iv. Pregnancy</label></label>
+                    <div class="form-check">
+                        <input class="form-check-input input" type="radio" name="question5 " id="flexRadioDefault1"
+                            value="yes">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input " type="radio" name="question5 " id="flexRadioDefault2" value="no">
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            No
+                        </label>
+                    </div>
+                    <button type="button" class="btn btn-primary buttonClass" onclick="homestay()"> Check if you are eligible</button>
+                    
+                </div>
+                <div class="col-xl-6 riskPic">
+                    <img class="riskPic" id="riskPic">
+    
+                </div>
             </div>
-
-            <div class="form-check form-switch">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Able to self-isolate in a riim, preferably
-                    with an en-suite toilet</label>
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-            </div>
-
-            <div class="form-check form-switch">
-                <label class="form-check-label" for="flexSwitchCheckDefault">None of your household members are older
-                    than 80 years old</label>
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-            </div>
-
-            <div class="form-check form-switch">
-                <label class="form-check-label" for="flexSwitchCheckDefault">None of your household members have any of
-                    the following conditions:</label>
-                <label> i. Chronic heart,lung,liver,kidney or nerological disease</label><br>
-                <label>ii. Active cancer</label><br>
-                <label>iii. Weakened immunity</label><br>
-                <label>iv. Pregnancy</label>
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-            </div>
-
-        </div>
+            <script src="./js/stayhome.js"> </script>
+    
+        </form>
+        
 
 
         <!-- Footer -->
