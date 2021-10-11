@@ -13,7 +13,8 @@ function countrisk(){
     }
     console.log(count)
     if (count <= 2){
-        alert('Stay at home');
+        document.getElementById("riskPic").src="../assets/testPic.png";
+        console.log('Stay at home');
     } else if (count > 2 && count < 5){
         alert('Please Visit a Clinic');
     } else {

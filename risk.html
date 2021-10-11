@@ -22,96 +22,105 @@
         <img src="/assets/topbanner1.jpeg">
     </div>
 
-    <div class="container-fluid navbar">
+    <div class="container-fluid navbar ">
         <ul class="nav">
-            <li class="nav-item">
+            <li class="nav-item col-sm-6 col-12 col-xl-3">
                 <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item col-sm-6 col-12 col-xl-3">
                 <a class="nav-link" href="/risk.html">Are you at Risk</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item col-sm-6 col-12 col-xl-3">
                 <a class="nav-link" href="/stayhome.html">Home Stay Eligibility</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item col-sm-6 col-12 col-xl-3">
                 <a class="nav-link" href="/clinic.html">Find a clinic</a>
             </li>
         </ul>
     </div>
     <form>
-        <div class="form-container">
+        <div class="container-fluid row">
+            <div class="form-container col-xl-6">
 
-            <label>Do you have fever of 37.5 degree celcius and above?</label>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault1" value="yes">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Yes
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault2" value="no" >
-                <label class="form-check-label" for="flexRadioDefault2">
-                    No
-                </label>
-            </div>
+                <label>Do you have fever of 37.5 degree celcius and above?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
 
 
-            <label>Have you recieved a "Health Risk Warning" (HRW) SMS in the last 14 days?</label>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault1" value="yes">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Yes
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault2" >
-                <label class="form-check-label" for="flexRadioDefault2">
-                    No
-                </label>
-            </div>
+                <label>Have you recieved a "Health Risk Warning" (HRW) SMS in the last 14 days?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
 
-            <label>Have you recieved a "Health Risk Alert (HRA) SMS in the last 14 days?</label>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault1" value="yes">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Yes
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault2" value="no">
-                <label class="form-check-label" for="flexRadioDefault2">
-                    No
-                </label>
-            </div>
+                <label>Have you recieved a "Health Risk Alert (HRA) SMS in the last 14 days?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
 
-            <label>Did you have contact with any case of COVID-19 in the last 14 days?</label>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault1" value="yes">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Yes
-                </label>
-            </div>
-            <div class="form-check">
-                <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault2" value="no" >
-                <label class="form-check-label" for="flexRadioDefault2">
-                    No
-                </label>
-            </div>
+                <label>Did you have contact with any case of COVID-19 in the last 14 days?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
 
-            <label>Were you in other countries (outside Singapore) in the last 14 days before your symptoms?</label>
-            <div class="form-check">
-                <input class="form-check-input input" type="radio" name="question5 " id="flexRadioDefault1" value="yes">
-                <label class="form-check-label" for="flexRadioDefault1">
-                    Yes
-                </label>
+                <label>Were you in other countries (outside Singapore) in the last 14 days before your symptoms?</label>
+                <div class="form-check">
+                    <input class="form-check-input input" type="radio" name="question5 " id="flexRadioDefault1"
+                        value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input " type="radio" name="question5 " id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
+                <button type="button" class="btn btn-primary buttonClass" onclick="countrisk()"> Check Risk</button>
             </div>
-            <div class="form-check">
-                <input class="form-check-input " type="radio" name="question5 " id="flexRadioDefault2" value="no">
-                <label class="form-check-label" for="flexRadioDefault2">
-                    No
-                </label>
+            <div class="col-xl-6 riskPic">
+                <img class="riskPic" id="riskPic">
+
             </div>
-            <button type="button" class="btn btn-primary buttonClass" onclick="countrisk()"> Check Risk</button>
+        </div>
+
     </form>
 
     <script src="./js/risk.js"> </script>
