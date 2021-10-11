@@ -7,8 +7,8 @@
                 "marker-color": "#7e7e7e",
                 "marker-size": "medium",
                 "marker-symbol": "",
-                "name": "Mount Alvernia Hospital",
-                "address": "820 Thomson Rd, Singapore 574623",
+                "name": "Kml_1",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Mount Alvernia Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>820 Thomson Rd, Singapore 574623<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>63476688<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>",
                 "phone": 63476688
             },
             "geometry": {
@@ -25,9 +25,8 @@
                 "marker-color": "#7e7e7e",
                 "marker-size": "medium",
                 "marker-symbol": "",
-                "name": "Mount Elizabeth Novena",
-                "address": "38 Irrawaddy Rd, Singapore 329563",
-                "phone": 68986898
+                "name": "Kml_2",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Mount Elizabeth Novena<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>38 Irrawaddy Rd, Singapore 329563<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>68986898<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>",
             },
             "geometry": {
                 "type": "Point",
@@ -43,9 +42,8 @@
                 "marker-color": "#7e7e7e",
                 "marker-size": "medium",
                 "marker-symbol": "",
-                "name": "Mount Elizabeth Medical",
-                "address": "3 Mount Elizabeth, Singapore 228510",
-                "phone": 67355000
+                "name": "Kml_3",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Mount Elizabeth Medical<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>3 Mount Elizabeth, Singapore 228510<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67355000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>",
             },
             "geometry": {
                 "type": "Point",
@@ -61,9 +59,8 @@
                 "marker-color": "#7e7e7e",
                 "marker-size": "medium",
                 "marker-symbol": "",
-                "name": "Alexandra Hospital",
-                "address": "378 Alexandra Rd, Singapore 159964",
-                "phone": 64722000
+                "name": "Kml_4",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Alexandra Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>378 Alexandra Rd, Singapore 159964<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>64722000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>",
             },
             "geometry": {
                 "type": "Point",
@@ -79,9 +76,8 @@
                 "marker-color": "#7e7e7e",
                 "marker-size": "medium",
                 "marker-symbol": "",
-                "name": "Parkway East Hospital",
-                "address": "321 Joo Chiat Pl, Singapore 427990",
-                "phone": 63773737
+                "name": "Kml_5",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Parkway East Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>321 Joo Chiat Pl, Singapore 427990<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>63773737<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>",
             },
             "geometry": {
                 "type": "Point",
