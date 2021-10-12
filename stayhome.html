@@ -9,138 +9,140 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Stay Home Recovery</title>
 </head>
 
 <body>
     <div class="topbanner container-fluid">
-        <img src="/assets/topbanner1.jpeg" </div>
+        <img src="/assets/topbanner1.jpeg">
+    </div>
 
-        <!-- NAV BAr -->
-        <div class="container-fluid navbar">
-            <ul class="nav">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/risk.html">Are you at Risk</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/stayhome.html">Home Stay Eligibility</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/clinic.html">Find a clinic</a>
-                </li>
-            </ul>
-        </div>
+    <!-- NAV BAr -->
+    <div class="container-fluid navbar">
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/risk.html">Are you at Risk</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/stayhome.html">Home Stay Eligibility</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/clinic.html">Find a clinic</a>
+            </li>
+        </ul>
+    </div>
 
 
 
-        <form>
-            <div class="container-fluid row">
-                <div class="form-container col-xl-6">
-    
-                    <label>Are you fully vaccinated?</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault1" value="yes">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Yes
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault2" value="no">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            No
-                        </label>
-                    </div>
-    
-    
-                    <label>Are you between 12-69 years old?</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault1" value="yes">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Yes
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault2">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            No
-                        </label>
-                    </div>
-    
-                    <label>Not having any severe co-morbidities or
-                        illness</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault1" value="yes">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Yes
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault2" value="no">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            No
-                        </label>
-                    </div>
-    
-                    <label>Able to self-isolate in a room, preferably
-                        with an en-suite toilet</label>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault1" value="yes">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Yes
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault2" value="no">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            No
-                        </label>
-                    </div>
-    
-                    <label>None of your household members have any of
-                        the following conditions:</label>
-                    <label> i. Chronic heart,lung,liver,kidney or nerological disease</label><br>
-                    <label>ii. Active cancer</label><br>
-                    <label>iii. Weakened immunity</label><br>
-                    <label>iv. Pregnancy</label></label>
-                    <div class="form-check">
-                        <input class="form-check-input input" type="radio" name="question5 " id="flexRadioDefault1"
-                            value="yes">
-                        <label class="form-check-label" for="flexRadioDefault1">
-                            Yes
-                        </label>
-                    </div>
-                    <div class="form-check">
-                        <input class="form-check-input " type="radio" name="question5 " id="flexRadioDefault2" value="no">
-                        <label class="form-check-label" for="flexRadioDefault2">
-                            No
-                        </label>
-                    </div>
-                    <button type="button" class="btn btn-primary buttonClass" onclick="homestay()"> Check if you are eligible</button>
-                    
+    <form>
+        <div class="container-fluid row">
+            <div class="form-container col-xl-6">
+
+                <label>Are you fully vaccinated?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
                 </div>
-                <div class="col-xl-6 riskPic">
-                    <img class="riskPic" id="riskPic">
-    
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1 " id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
                 </div>
+
+
+                <label>Are you between 12-69 years old?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2 " id="flexRadioDefault2">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
+
+                <label>Not having any severe co-morbidities or
+                    illness</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3 " id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
+
+                <label>Able to self-isolate in a room, preferably
+                    with an en-suite toilet</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault1" value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4 " id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
+
+                <label>None of your household members have any of
+                    the following conditions:</label>
+                <label> i. Chronic heart,lung,liver,kidney or nerological disease</label><br>
+                <label>ii. Active cancer</label><br>
+                <label>iii. Weakened immunity</label><br>
+                <label>iv. Pregnancy</label></label>
+                <div class="form-check">
+                    <input class="form-check-input input" type="radio" name="question5 " id="flexRadioDefault1"
+                        value="yes">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                        Yes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input " type="radio" name="question5 " id="flexRadioDefault2" value="no">
+                    <label class="form-check-label" for="flexRadioDefault2">
+                        No
+                    </label>
+                </div>
+                <button type="button" class="btn btn-primary buttonClass" onclick="homestay()"> Check if you are
+                    eligible</button>
+
             </div>
-            <script src="./js/stayhome.js"> </script>
-    
-        </form>
-        
+            <div class="col-xl-6 riskPic">
+                <img class="riskPic" id="riskPic">
+
+            </div>
+        </div>
+        <script src="./js/stayhome.js"> </script>
+
+    </form>
 
 
-        <!-- Footer -->
+
+    <!-- Footer -->
     <div id="footer" class="text-center"> &copy; 2021. TGC Batch 13. Junior Chang<br>
         For Educational purpose</div>
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
