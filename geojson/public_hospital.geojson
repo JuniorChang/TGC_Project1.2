@@ -1,0 +1,124 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Kml_1",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Khoo Teck Puat Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>90 Yishun Central, Singapore 768828<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>65558000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.83901834487915,
+                    1.4242886654583438
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Kml_2",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Sengkang General & Community Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>110 Sengkang E Way, Singapore 544886<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>69305000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.89265179634094,
+                    1.3954368337442136
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Kml_3",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Tan Tok Seng Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>11 Jln Tan Tock Seng, Singapore 308433<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>62566011<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.84491920471191,
+                    1.321176615178536
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Kml_4",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Singapore General Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>Outram Rd, Singapore 169608<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>62223322<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.8340938091278,
+                    1.278438568840529
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Kml_5",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>National University Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>301 South Buona Vista Rd, Singapore 118177<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67795555<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.78306746482849,
+                    1.2941309006626591
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Kml_6",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Ng Teng Fong Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>1 Jurong East Street 21, Singapore 609606<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67162000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.74439001083374,
+                    1.3344070809225115
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "marker-color": "#7e7e7e",
+                "marker-size": "medium",
+                "marker-symbol": "",
+                "name": "Kml_7",
+                "Description": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Changi General Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>2 Simei Street 3, Singapore 529889<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67888833<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    103.9495575428009,
+                    1.3400060081492466
+                ]
+            }
+        }
+    ]
+}

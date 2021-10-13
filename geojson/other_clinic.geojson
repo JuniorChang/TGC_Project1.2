@@ -1,0 +1,692 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        
+        "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_1",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>OneCare Medical Clinic Woodlands<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>4 Woodlands Street 12, #02-57 Marsiling Mall, Singapore 738623<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>63632919<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.77997756004333,
+          1.4330728506326038
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_2",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Pinnacle Family Clinic<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>#01-06 Woodlands Drive 16, Blk 573, Singapore 730573<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67601623<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7985223531723,
+          1.4310832731737655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_3",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Temasek Medical Centre<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>624 Choa Chu Kang Street 62, #01-226, Singapore 680624<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67665766<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74697029590607,
+          1.3979251842096518
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_4",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Healthmark Family Medicine Clinic<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>601 Choa Chu Kang Street 62, #01-09 Block 601, Singapore 680601<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67672281<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74668061733246,
+          1.3968767523843342
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_5",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Keat Hong Family Medicine Clinic<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>2 Choa Chu Kang Loop, #03-02 Keat Hong Community Clu9, Singapore 689687<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67690750<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74505251646042,
+          1.3841641442029702
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_6",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>The Edinburgh Clinic<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>306 Choa Chu Kang Ave 4, #01-685, Singapore 680306<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67634500<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.74303549528122,
+          1.384960527697529
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_7",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>First Care Family Clinic & Surgery<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>253 Jurong East St 24, #01-257, Singapore 600253<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>64252350<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.73692810535431,
+          1.3439745886657821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_8",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Mary Medical Clinic & Surgery<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>252 Jurong East St 24, #01-157, Singapore 600252<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>65624721<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.73811900615692,
+          1.3429395405843743
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_9",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>May Medical Clinic & Surgery<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>Block 41 Holland Drive, #01-19, 270041<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67743318<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79365146160126,
+          1.307318605514955
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_10",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>The Chelsea Clinic Rochester<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>35 Rochester Dr, #03 - 21, Singapore 138639<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>65703913<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78824412822723,
+          1.305473725376392
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_11",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>EC Family Clinic<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>30 Eunos Cres, # 01-18, Singapore 409423<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67426103<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.90348255634308,
+          1.3198197778498149
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_12",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>DTAP Clinic @ Siglap GP-Plus medical service<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>914 E Coast Rd, #01-04 The Domain, Singapore 459108<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>69622144<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.92038851976395,
+          1.3211256667546798
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_13",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Famicare Bedok Clinic<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>158 Bedok South Ave 3, Singapore 460158<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>64428373<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.94508898258209,
+          1.3187056154186045
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_14",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Woods Medical Clinic Pte Ltd<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>20 Eastwood Rd, #01-14A Eastwood Centre, Singapore 486442<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>62460545<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.95559519529341,
+          1.3212718082834776
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_15",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Central 24-HR Clinic (Pasir Ris)<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>446 Pasir Ris Drive 6, #01-122, Singapore 510446<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>65822640<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.95734667778015,
+          1.3704191129867944
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_16",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>We Care Clinic & Surgery<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>442 Pasir Ris Drive 6, #02-26, Singapore 510442<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>65821223<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.95733058452605,
+          1.3691695607709624
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+          "Type": "Other Clinic",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_17",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>ProHealth Medical Group<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>476D Upper Serangoon View, #02-04, Capview 537476<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>63847662<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.90353083610535,
+          1.3773506300543923
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_1",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Causeway Point<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>1 Woodlands Square<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>123456789<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>",
+        "popupContent": "CausewayPoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.78604471683502,
+          1.4360169930804496,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_2",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Sembawang<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>Sembawang Way, #01-06 Block 355A, Singapore 750355<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>123456789<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.81891250610352,
+          1.44957930509808,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_3",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Northpoint City<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>Northpoint City  #03-35, #01-06 Block 355A, Singapore 750355<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67550049<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.83627712726593,
+          1.4292974784591168,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_4",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Ang Mo Kio<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>Blk 722 Ang Mo Kio Ave 8, #01-2825, Singapore 560722<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>64532288<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.84746193885803,
+          1.3724784594217787,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_5",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Bishan<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>Bishan Street 22, #01-177 Blk 283, Singapore 570283<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>64567122<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.84486824274062,
+          1.3587548127293527,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_6",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Toa Payoh<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>Blk 177 Toa Payoh Central, #01-170, 310177<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>62547667<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.84953796863556,
+          1.3338975993632867,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_7",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Shaw Centre<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>1 Scotts Rd, #04 - 09 / 14, Singapore 228208<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>68380080<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.83140087127686,
+          1.306508789109322,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_8",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Anchorpoint<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>370 Alexandra Rd, B1-41, Singapore 159953<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>64793818<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8050428032875,
+          1.28852918905579,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Rmg",
+        "marker-color": "#7e7e7e",
+        "marker-size": "medium",
+        "marker-symbol": "",
+        "name": "Kml_9",
+        "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Holland V Mall<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>118 Holland Ave, #05-02/03/04, Singapore 278997<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>62501411<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.79612177610396,
+          1.310528371942419,
+          0.0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Type": "Private Hospital",
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "name": "Kml_1",
+          "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Mount Alvernia Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>820 Thomson Rd, Singapore 574623<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>63476688<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+          
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [
+              103.83805274963379,
+              1.342011750998951
+          ]
+      }
+  },
+  {
+      "type": "Feature",
+      "properties": {
+        "Type": "Private Hospital",
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "name": "Kml_2",
+          "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Mount Elizabeth Novena<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>38 Irrawaddy Rd, Singapore 329563<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>68986898<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [
+              103.84426474571227,
+              1.3221419535383716
+          ]
+      }
+  },
+  {
+      "type": "Feature",
+      "properties": {
+        "Type": "Private Hospital",
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "name": "Kml_3",
+          "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Mount Elizabeth Medical<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>3 Mount Elizabeth, Singapore 228510<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67355000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [
+              103.83535981178284,
+              1.3046451377804875
+          ]
+      }
+  },
+  {
+      "type": "Feature",
+      "properties": {
+        "Type": "Private Hospital",
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "name": "Kml_4",
+          "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Alexandra Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>378 Alexandra Rd, Singapore 159964<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>64722000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [
+              103.80100607872009,
+              1.2867352443403495
+          ]
+      }
+  },
+  {
+      "type": "Feature",
+      "properties": {
+        "Type": "Private Hospital",
+          "marker-color": "#7e7e7e",
+          "marker-size": "medium",
+          "marker-symbol": "",
+          "name": "Kml_5",
+          "Name": "<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Parkway East Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>321 Joo Chiat Pl, Singapore 427990<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>63773737<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+      },
+      "geometry": {
+          "type": "Point",
+          "coordinates": [
+              103.90900254249573,
+              1.3150681598719258
+          ]
+      }
+  },
+  {
+    "type":"Feature",
+    "properties":{
+      "Type": "Public Hospital",
+        "marker-color":"#7e7e7e",
+        "marker-size":"medium",
+        "marker-symbol":"",
+        "Name":"<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Khoo Teck Puat Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>90 Yishun Central, Singapore 768828<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>65558000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+    },
+    "geometry":{
+        "type":"Point",
+        "coordinates":[
+            103.83901834487915,
+            1.4242886654583438
+            ]
+        }
+    },
+{
+    "type":"Feature",
+    "properties":{
+      "Type": "Public Hospital",
+        "marker-color":"#7e7e7e",
+        "marker-size":"medium",
+        "marker-symbol":"",
+        "Name":"<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Sengkang General & Community Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>110 Sengkang E Way, Singapore 544886<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>69305000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+        },
+        "geometry":{
+            "type":"Point",
+            "coordinates":[
+                103.89265179634094,
+                1.3954368337442136
+                ]
+            }
+        },
+{
+    "type":"Feature",
+    "properties":{
+      "Type": "Public Hospital",
+        "marker-color":"#7e7e7e",
+        "marker-size":"medium",
+        "marker-symbol":"",
+        "Name":"<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Tan Tok Seng Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>11 Jln Tan Tock Seng, Singapore 308433<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>62566011<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+        },
+        "geometry":{
+            "type":"Point",
+            "coordinates":[
+                103.84491920471191,
+                1.321176615178536
+                ]
+            }
+        },
+{
+    "type":"Feature",
+    "properties":{
+      "Type": "Public Hospital",
+        "marker-color":"#7e7e7e",
+        "marker-size":"medium",
+        "marker-symbol":"",
+        "Name":"<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Singapore General Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>Outram Rd, Singapore 169608<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>62223322<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+        },
+        "geometry":{
+            "type":"Point",
+            "coordinates":[
+                103.8340938091278,
+                1.278438568840529
+                ]
+            }
+        },
+{
+    "type":"Feature",
+    "properties":{
+      "Type": "Public Hospital",
+        "marker-color":"#7e7e7e",
+        "marker-size":"medium",
+        "marker-symbol":"",
+        "Name":"<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>National University Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>301 South Buona Vista Rd, Singapore 118177<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67795555<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+        },
+        "geometry":{
+            "type":"Point",
+            "coordinates":[
+                103.78306746482849,
+                1.2941309006626591
+                ]
+            }
+        },
+{
+    "type":"Feature",
+    "properties":{
+      "Type": "Public Hospital",
+        "marker-color":"#7e7e7e",
+        "marker-size":"medium","marker-symbol":"",
+        "Name":"<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Ng Teng Fong Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>1 Jurong East Street 21, Singapore 609606<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67162000<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+        },
+        "geometry":{
+            "type":"Point",
+            "coordinates":[
+                103.74439001083374,
+                1.3344070809225115
+                ]
+            }
+        },
+{
+    "type":"Feature",
+    "properties":{
+      "Type": "Public Hospital",
+        "marker-color":"#7e7e7e",
+        "marker-size":"medium","marker-symbol":"",
+        "Name":"<center><table><tr><th colspan='2' align='center'><em>Attributes<\/em><\/th><\/tr><tr bgcolor=\"#E3E3F3\"> <th>Name<\/th> <td>Changi General Hospital<\/td> <\/tr><tr bgcolor=\"\"> <th>Address<\/th> <td>2 Simei Street 3, Singapore 529889<\/td> <\/tr><tr bgcolor=\"#E3E3F3\"> <th>Phone<\/th> <td>67888833<\/td> <\/tr><tr bgcolor=\"\">  <\/tr><\/table><\/center>"
+        },
+        "geometry":{
+            "type":"Point",
+            "coordinates":[
+                103.9495575428009,
+                1.3400060081492466
+                ]
+            }
+        }
+  ]
+}

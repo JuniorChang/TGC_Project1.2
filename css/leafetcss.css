@@ -30,10 +30,10 @@ body {
 	z-index: 99999; }
 
 .leaflet-control-zoom-fullscreen { 
-	background-image: url(./assets/icon-fullscreen.png); 
+	background-image: url(../assets/icon-fullscreen.png); 
 }
 
 .leaflet-retina.leaflet-control-zoom-fullscreen { 
-	background-image: url(./assets/icon-fullscreen-2x.png); 
+	background-image: url(../assets/icon-fullscreen-2x.png); 
 	background-size: 26px 26px; 
 }

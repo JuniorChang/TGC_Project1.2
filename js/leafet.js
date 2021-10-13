@@ -12,6 +12,7 @@ const rmglogo = L.icon({
     iconAnchor: [0, 0],
     popupAnchor: [0, 0]
 })
+
 const publicHospitalLogo = L.icon({
     iconUrl: '../assets/publicHospitalLogo.png',
     iconSize: [70, 70],
