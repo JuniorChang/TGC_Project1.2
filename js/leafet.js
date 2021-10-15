@@ -222,66 +222,218 @@
 //     .addTo(map);
 
 
-const parentDom = document.getElementById("map");
-const checkbox = parentDom.getElementsByClassName("leafet-control-layers-selector")
+// let parentDom = document.getElementById("map");
+// const checkbox = parentDom.getElementsByClassName("leafet-control-layers-selector")
+
+// console.log(checkbox);
+
+
+// let otherClinics = new L.LayerGroup();
+// let rmg = new L.LayerGroup();
+// let privateHospitals = new L.LayerGroup();
+// let publicHospitals = new L.LayerGroup();
+
+// let map = L.map('map', {
+//     center: [1.29, 103.85],
+//     minZoom: 8,
+//     zoom: 9,
+// });
+
+// // Start of custom icon
+
+// const otherClinicLogo = L.icon({
+//     iconUrl: '../assets/otherclinicLogo.png',
+//     iconSize: [50, 30],
+//     iconAnchor: [0, 0],
+//     popupAnchor: [0, 0]
+// });
+// const rmglogo = L.icon({
+//     iconUrl: '../assets/rLogo.png',
+//     iconSize: [50, 30],
+//     iconAnchor: [0, 0],
+//     popupAnchor: [0, 0]
+// });
+// const publicHospitalLogo = L.icon({
+//     iconUrl: '../assets/publicHospitalLogo.png',
+//     iconSize: [50, 30],
+//     iconAnchor: [0, 0],
+//     popupAnchor: [0, 0]
+// });
+// const privateHospitalLogo = L.icon({
+//     iconUrl: '../assets/privateHospitalLogo.png',
+//     iconSize: [50, 30],
+//     iconAnchor: [0, 0],
+//     popupAnchor: [0, 0]
+// })
+
+// // Setting up base map layer with open street map
+
+// let maplink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+// let maplayer = L.tileLayer(
+//     'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+//     attribution: 'Map data &copy; ' + maplink,
+//     maxZoom: 19
+// }).addTo(map);
+// let maplink2 = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+// let maplayer2 = L.tileLayer(
+//     'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+//     attribution: 'Map data &copy; ' + maplink2,
+//     maxZoom: 19
+// }).addTo(map);
+
+// let style = {
+//     radius: 10,
+//     fillOpacity: 1,
+//     stroke: false,
+//     weight: 1,
+//     opacity: 1,
+//     fill: true,
+//     clickable: true
+// }
+
+// jQuery.getJson('../geojson/data.geojson', function (geojsonData) {
+//     var categories = {},
+//         Type;
+
+//     let allPoints = L.geoJson(geojsonData, {
+//         pointToLayer: function (feature, latlng) {
+//             switch (feature.properties.Type) {
+//                 case 'Other Clinic': return L.marker(latlng, { icon: otherClinicLogo }).addTo(Other_Clinic);
+//                 case 'rmg': return L.marker(latlng, { icon: rmglogo }).addTo(Rmg);
+//                 case 'Private Hospital': return L.marker(latlng, { icon: privateHospitalLogo }).addTo(Private_Hospital);
+//                 case 'Public Hospital': return L.marker(latlng, { icon: publicHospitalLogo }).addTo(Public_Hospital);
+//             }
+//         },
+
+//         onEachFeature: function (feature, layer) {
+//             layer.bindPopup(feature.properties.Name);
+//             Type = feature.properties.Type;
+//             if (typeof categories[Type] === 'undefined') {
+//                 categories[Type] = [];
+//             }
+//             categories[Type].push(layer);
+//         }
+//     });
+//     markerCluster.addLayer(Other_Clinic);
+//     markerCluster.addLayer(Rmg);
+//     markerCluster.addLayer(Private_Hospital);
+//     markerCluster.addLayer(Public_Hospital);
+
+
+//     let groupedOverlays = {
+//         "Hospitals": {
+//             "Private": Private_Hospital,
+//             "Public": Public_Hospital
+//         },
+//         "Random": {
+//             "Rmg": Rmg,
+//             "Other_Clinic": Other_Clinic
+//         }
+//     };
+
+//     let options = {
+//         exclusiveGroups: ["Hospitals"],
+//     };
+
+//     // doing the light and dark layer for control
+//     let baseLayers = {
+//         "Light": maplayer,
+//         "Dark": maplayer2
+//     };
+
+//     let overlay = {
+//         "All Hospital": markerCluster
+//     },
+//         TypeName,
+//         TypeArray,
+//         TypeLG
+
+//     for (TypeName in categories) {
+//         TypeArray = categories[TypeName];
+//         TypeLG = L.LayerGroup(TypeArray);
+//         TypeLG.TypeName = TypeName;
+//         overlay[TypeName] = TypeLG;
+//     }
+
+//     // creating empty layergroup to be used to emulate add/remove all
+
+//     let layerControl = L.layerControl.groupedLayers(baseLayers, groupedOverlays, options, overlay, {
+//         collapsed: false
+//     });
+//     map.addControl(layerControl);
+// });
+
+// Define map
+var parentDOM = document.getElementById("map");
+const checkbox = parentDOM.getElementsByClassName("leaflet-control-layers-selector")
 
 console.log(checkbox);
 
 
-const otherClinics = new L.LayerGroup();
-const rmg = new L.LayerGroup();
-const privateHospitals = new L.LayerGroup();
-const publicHospitals = new L.LayerGroup();
 
-const map = L.map('map', {
+//var markerCluster = L.markerClusterGroup();
+var markerCluster = L.markerClusterGroup();
+
+
+
+var Other_Clinic = new L.LayerGroup();
+var Rmg = new L.LayerGroup();
+var Private_Hospital = new L.LayerGroup();
+var Public_Hospital = new L.LayerGroup();
+
+var map = L.map('map', {
     center: [1.29, 103.85],
     minZoom: 8,
     zoom: 9,
+    //layers: [groups.LayerGroups.Private_Hospital]
 });
 
-// Start of custom icon
 
-const otherClinicLogo = L.icon({
+
+
+var otherclinicLogo = L.icon({
     iconUrl: '../assets/otherclinicLogo.png',
     iconSize: [50, 30],
     iconAnchor: [0, 0],
     popupAnchor: [0, 0]
 });
-const rmglogo = L.icon({
+var rmglogo = L.icon({
     iconUrl: '../assets/rLogo.png',
     iconSize: [50, 30],
     iconAnchor: [0, 0],
     popupAnchor: [0, 0]
 });
-const publicHospitalLogo = L.icon({
+var publicHospitalLogo = L.icon({
     iconUrl: '../assets/publicHospitalLogo.png',
     iconSize: [50, 30],
     iconAnchor: [0, 0],
     popupAnchor: [0, 0]
-});
-const privateHospitalLogo = L.icon({
+})
+var privateHospitalLogo = L.icon({
     iconUrl: '../assets/privateHospitalLogo.png',
     iconSize: [50, 30],
     iconAnchor: [0, 0],
     popupAnchor: [0, 0]
 })
-
-// Setting up base map layer with open street map
-
-const maplink = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-const maplayer = L.tileLayer(
+//// DEFINE BASE MAP LAYERS
+//
+// Open StreetMap
+var osmlink =
+    '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+var osmLayer = L.tileLayer(
     'https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
-    attribution: 'Map data &copy; ' + maplink,
+    attribution: 'Map data &copy; ' + osmlink,
     maxZoom: 19
 }).addTo(map);
-const maplink2 = '<a href="http://openstreetmap.org">OpenStreetMap</a>';
-const maplayer2 = L.tileLayer(
+var osmlink1 =
+    '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+var osmLayer1 = L.tileLayer(
     'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; ' + maplink2,
+    attribution: 'Map data &copy; ' + osmlink1,
     maxZoom: 19
 }).addTo(map);
 
-const style = {
+var myStyle = {
     radius: 10,
     fillOpacity: 1,
     stroke: false,
@@ -289,4 +441,104 @@ const style = {
     opacity: 1,
     fill: true,
     clickable: true
-}
+};
+
+jQuery.getJSON('../geojson/data.geojson', function (geojsonData) {
+
+    var categories = {},
+        Type;
+
+
+
+
+
+    var allPoints = L.geoJson(geojsonData, {
+        pointToLayer: function (feature, latlng) {
+            switch (feature.properties.Type) {
+                case 'Other Clinic': return L.marker(latlng, { icon: otherclinicLogo }).addTo(Other_Clinic);
+                case 'Rmg': return L.marker(latlng, { icon: rmglogo }).addTo(Rmg);
+                case 'Private Hospital': return L.marker(latlng, { icon: privateHospitalLogo }).addTo(Private_Hospital);
+                case 'Public Hospital': return L.marker(latlng, { icon: publicHospitalLogo }).addTo(Public_Hospital);
+            }
+        },
+
+
+
+
+
+        onEachFeature: function (feature, layer) {
+            layer.bindPopup(feature.properties.Name);
+            Type = feature.properties.Type;
+            // Initialize the category array if not already set.
+            if (typeof categories[Type] === "undefined") {
+                categories[Type] = [];
+            }
+            categories[Type].push(layer);
+        }
+    });
+    markerCluster.addLayer(Other_Clinic);
+    markerCluster.addLayer(Rmg);
+    markerCluster.addLayer(Private_Hospital);
+    markerCluster.addLayer(Public_Hospital);
+
+
+
+    // Overlay layers are grouped
+    var groupedOverlays = {
+        "Hospitals": {
+            "Private": Private_Hospital,
+            "Public": Public_Hospital
+        },
+        "Random": {
+            "Rmg": Rmg,
+            "Other_Clinic": Other_Clinic
+        }
+    };
+
+    var options = {
+        // Make the "Landmarks" group exclusive (use radio inputs)
+        exclusiveGroups: ["Hospitals"],
+        // Show a checkbox next to non-exclusive group labels for toggling all
+
+    };
+
+    // Use the custom grouped layer control, not "L.control.layers"
+
+
+
+    //// Map Control 
+    // Basemaps for control
+    var baseLayers = {
+        "Light": osmLayer1,
+        "Dark": osmLayer
+    };
+
+    // Feature layers for control	
+
+    var overlaysObj = {
+        "All Hospital": markerCluster
+    },
+        TypeName,
+        TypeArray,
+        TypeLG
+
+
+
+    for (TypeName in categories) {
+        TypeArray = categories[TypeName];
+        TypeLG = L.layerGroup(TypeArray);//.addTo(map);
+        TypeLG.TypeName = TypeName;
+        overlaysObj[TypeName] = TypeLG;
+    }
+
+
+
+    // Create an empty LayerGroup that will be used to emulate adding / removing all categories.
+    /*var allPointsLG = L.layerGroup();
+    overlaysObj["All Points"] = allPointsLG;*/
+
+    var layerControl = L.control.groupedLayers(baseLayers, groupedOverlays, options, overlaysObj, {
+        collapsed: false
+    });
+    map.addControl(layerControl);
+});
