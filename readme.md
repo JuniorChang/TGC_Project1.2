@@ -4,7 +4,7 @@
 <h1> Project can be found <a href=""> Here </a> </h1>
 
 <p> Screenshot of project </p>
-<img src="../assets/readmepic.png">
+<img src="assets/readmepic.png">
 
 <h1> Introduction </h1>
 
