@@ -12,7 +12,7 @@ function homestay(){
     }
     console.log(count)
     if (count <=  4) {
-        document.getElementsById("stayhome").src="../assets/redcross.jpg";
+        document.getElementById("stayhome").src="../assets/redcross.jpg";
         console.log('Not Eligible');
     } else {
         document.getElementById("stayhome").src="../assets/greentick.jpg"

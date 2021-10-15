@@ -13,12 +13,15 @@ function countrisk(){
     }
     console.log(count)
     if (count <= 2){
-        document.getElementById("riskPic").src="../assets/testPic.png";
+        document.getElementById("riskPic").src="../assets/danger_green.jpg";
         console.log('Stay at home');
     } else if (count > 2 && count < 5){
-        alert('Please Visit a Clinic');
+        document.getElementById("riskPic").src="../assets/danger_yellow.jpg";
+        console.log('Visit a Clinic');
     } else {
-        alert('Please visit a hospital')
+        document.getElementById("riskPic").src="../assets/danger_red.jpg";
+        console.log('Visit a hospital');
+        alert("Please Visit a hospital!");
     }
     
 }
